@@ -94,14 +94,14 @@ void print_list(struct Node *head)
 	- Stacks can be implemented using arrays or linked lists.
 	- Common operations on stacks include:
 
-	+ Pushing (adding an element to the top) and
-	+ Popping (removing an element from the top).
+		+ Pushing (adding an element to the top) and
+		+ Popping (removing an element from the top).
 
 	- `Stacks` are used for managing:
 
-	+ function calls,
-	+ expression evaluation,
-	+ backtracking algorithms, and more.
+		+ function calls,
+		+ expression evaluation,
+		+ backtracking algorithms, and more.
 
 ```
 /* The LIFO - Last-In-First-Out Principle */
@@ -190,8 +190,8 @@ int pop(struct Stack *stack)
 	- `Queues` can be implemented using arrays or linked lists.
 	- Common operations on `queues` include:
 
-	+ enqueue (adding an element to the back) and
-	+ dequeue (removing an element from the front).
+		+ enqueue (adding an element to the back) and
+		+ dequeue (removing an element from the front).
 
 	- `Queues` are used for scenarios where elements are processed in the order they arrive, `like in scheduling`, and more.
 
