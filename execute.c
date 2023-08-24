@@ -1,6 +1,6 @@
 #include "monty.h"
 
-
+command_t mycommand = {NULL, 0};
 /**
  * execute - execute monty code
  * @head: head of stack
@@ -15,7 +15,8 @@ int execute(stack_t **head, char *line, int line_number)
 					{"pall", _pall},
 					{"pint", _pint},
 					{"pop", _pop},
-					{"swap", _swap}
+					{"swap", _swap},
+					{"add", _add}
 					};
 	int opcode_found = 0;
 	size_t i = 0;

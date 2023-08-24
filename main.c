@@ -15,7 +15,6 @@ int main(int argc, char *argv[])
 	char *line = NULL;
 	unsigned int line_number = 1;
 	stack_t *head = NULL;
-	command_t mycommand = {NULL, 0};
 
 	if (argc != 2)
 	{
